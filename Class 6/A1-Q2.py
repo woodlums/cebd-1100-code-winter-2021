@@ -10,11 +10,11 @@ while True:
 
             # Student Menu
             print("Student Menu")
-            print("A: View grades")
-            print("B: Pay tuition")
+            print("1: View grades")
+            print("2: Pay tuition")
             print("Q: Quit")
             menu_student = input("Enter a choice>")
-            if menu_student == "B":
+            if menu_student == "2":
                 tuition_amount = input("Enter amount to be paid today.")
                 if not tuition_amount.isnumeric():
                     print("The amount must be a number, try again.")
