@@ -4,9 +4,8 @@ class Employee:
         self.first = first
         self.last = last
         self.pay = pay
+        self.full_name = self.first + " " + self.last
 
-    def __str__(self):
-        return '{} {}'.format(self.first,self.last)
 
 emp_1=Employee('Bassel','Kotaish',66000)
 emp_2=Employee('Husam','kasem',32000)
